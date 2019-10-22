@@ -1,0 +1,174 @@
+.block_approve_wrapper {
+  border: 1px solid #373947;
+  border-radius: 10px;
+  background-color: #0E1832;
+  box-shadow: 0 10px 40px 0 rgba(0,0,0,0.25);
+  hr {
+    width: 100%;
+    border-bottom: 1px solid #373947;
+  }
+}
+
+.approve_opponent_info {
+  height: 712px;
+  width: 425px;
+  margin-right: 20px;
+}
+
+.approve_game_details {
+  height: 712px;
+  width: 234px;
+  padding: 0 20px;
+}
+
+.top_opponent_info {
+  padding: 0 50px 54px;
+  background-color: rgba(0,0,0,0.26);
+  position: relative;
+  .user_platform_profile {
+    margin: 0;
+  }
+}
+
+.bottom_opponent_info {
+  padding: 55px 50px 0;
+}
+
+.opponent_block_title {
+  font-family: Montserrat, sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.58px;
+  line-height: 30px;
+  text-align: center;
+  padding: 30px 0;
+}
+
+div {
+  .opponent_user_avatar {
+    width: 71px;
+    height: 71px;
+    margin: 0 auto;
+  }
+}
+
+.opponent_username {
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -1.04px;
+  line-height: 22px;
+  text-align: center;
+  margin-top: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.opponent_games_played {
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  margin: 9px 0 18px;
+}
+
+.opponent_need_add_friends {
+  position: absolute;
+  bottom: -22px;
+  left: 0;
+  width: calc(100% - 100px);
+  margin: 0 50px;
+  border: 1px solid #373947;
+  border-radius: 22px;
+  background-color: #0E1832;
+  box-shadow: 0 10px 40px 0 rgba(0,0,0,0.25);
+  p {
+    padding: 6px 30px;
+    font-size: 12px;
+    letter-spacing: -0.27px;
+    line-height: 15px;
+    text-align: center;
+  }
+}
+
+.opponent_approve_block {
+  .default_button_wrapper {
+    text-align: center;
+    .default_button {
+      width: 254px;
+      height: 54px;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-family: Montserrat, sans-serif;
+      font-weight: 600;
+      &:disabled {
+        background: #174A44;
+        color: #ffffff;
+        text-transform: none;
+      }
+    }
+  }
+  & > span {
+    display: block;
+    font-size: 12px;
+    letter-spacing: -0.27px;
+    line-height: 15px;
+    text-align: center;
+    margin: 25px 0 32px;
+  }
+}
+
+.opponent_cancel_block {
+  .auth_button_wrapper {
+    margin: 28px 0 25px;
+    text-align: center;
+    .auth_button {
+      min-width: 254px;
+      height: 54px;
+    }
+  }
+}
+
+.game_details_label {
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.details_block_inner {
+  padding: 25px 0 45px;
+  text-align: center;
+}
+
+.game_details_stack {
+  font-size: 50px;
+  line-height: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+  img {
+    margin-left: 10px;
+    width: 30px;
+  }
+}
+
+.game_details_platform {
+  padding: 10px 0 27px;
+  text-align: center;
+  img {
+    margin: 20px 0;
+  }
+}
+
+.details_game_logo {
+  img {
+    max-width: 80%;
+    border-radius: 6px;
+  }
+  p {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

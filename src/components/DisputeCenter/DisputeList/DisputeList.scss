@@ -1,0 +1,25 @@
+.dispute_center_wrapper {
+  padding: 45px 30px 140px;
+  h2 {
+    font-family: Montserrat, sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: -1.39px;
+    line-height: 22px;
+    margin-bottom: 45px;
+  }
+  .pagination_wrapper {
+    justify-content: center;
+    span {
+      display: none;
+    }
+  }
+}
+
+.dispute_list {
+  display: flex;
+  flex-wrap: wrap;
+  & > :nth-child(3n) {
+    margin-right: 0;
+  }
+}

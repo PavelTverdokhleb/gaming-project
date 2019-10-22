@@ -1,0 +1,141 @@
+.rules_wrapper {
+  border-radius: 10px;
+  background-color: #0E1832;
+  box-shadow: 0 10px 40px 0 rgba(0,0,0,0.25);
+  padding: 38px 26px 38px 30px;
+  h2 {
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 400;
+    margin-left: 8px;
+  }
+  h4 {
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 400;
+    margin-bottom: 12px;
+  }
+  p {
+    color: rgba(255,255,255,0.7);
+    font-size: 16px;
+    line-height: 18px;
+  }
+  hr {
+    height: 2px;
+    width: 100%;
+    border: 1px solid #373947;
+    margin: 40px 0 25px;
+  }
+  .game_rules-top_section {
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+  .game_rules_row {
+    span {
+      line-height: 21px;
+      font-size: 18px;
+      display: block;
+      margin-bottom: 12px;
+    }
+    p {
+      font-size: 18px;
+      line-height: 21px;
+    }
+  }
+  .game_rules_error {
+    color: #ff344d;
+    font-size: 12px;
+    margin-left: 20px;
+  }
+  .how_to_start_item {
+    p {
+      color: #FFFFFF;
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
+}
+
+.rules_start_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 42px 0 30px;
+  & > div {
+    width: 30%;
+  }
+}
+
+.rules_disconnect {
+  p {
+    font-size: 18px;
+    margin: 12px 0;
+  }
+}
+
+.rules_select_wrapper {
+  margin-left: 30px;
+  .rules_select__control {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    .rules_select__single-value {
+      color: #ffffff;
+      font-family: "Inter", sans-serif;
+      font-size: 26px;
+      line-height: 30px;
+    }
+    &.rules_select__control--is-focused {
+      border: none;
+      box-shadow: none;
+    }
+  }
+  .rules_select__indicator-separator {
+    background: transparent;
+  }
+  .rules_select__dropdown-indicator {
+    color: #ffffff;
+    padding: 0;
+    &:hover {
+      color: rgba(255,255,255,0.8);
+    }
+  }
+  .rules_select__loading-indicator {
+    color: #ffffff;
+    font-size: 4px;
+    padding: 5px 2px;
+    position: absolute;
+    right: -30px;
+  }
+  .rules_select__menu {
+    border-radius: 0;
+  }
+  .rules_select__option {
+    color: #0E1832;
+    cursor: pointer;
+    &.rules_select__option--is-selected {
+      background-color: #0D146E;
+      color: #ffffff;
+    }
+    &:hover {
+
+    }
+  }
+  .rules_select__value-container {
+    overflow: inherit;
+  }
+}
+
+.game_rules_preload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 138px;
+  & > div {
+    color: #ff344d;
+  }
+}
+
+.rules_inner {
+  padding: 0 20px 0 0;
+}

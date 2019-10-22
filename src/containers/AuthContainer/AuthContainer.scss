@@ -1,0 +1,259 @@
+.auth_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(180deg, #000b47 0%, #0D146E 100%);
+}
+
+.auth_section {
+  padding: 128px 0 50px;
+  width: 55%;
+  min-height: 100vh;
+  background-color: #1B2664;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.round_inside_block {
+  background: linear-gradient(180deg, #000b47 0%, #0D146E 100%);
+  -webkit-clip-path: ellipse(60% 53% at 30% 50%);
+  clip-path: ellipse(60% 53% at 30% 50%);
+  left: -10%;
+  top: 0;
+  height: 100%;
+  position: absolute;
+  width: 20%;
+}
+
+.auth_center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.auth_section_block {
+  max-width: 329px;
+  form {
+    .custom_input_wrapper {
+      margin-bottom: 20px;
+    }
+  }
+}
+
+.auth_title {
+  color: #FFFFFF;
+  font-family: Montserrat, sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 44px;
+  margin-bottom: 15px;
+}
+
+.auth_subtitle {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  color: #A0A6D0;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 39px;
+}
+
+.auth_promo_wrapper {
+  padding: 128px 0 50px;
+  width: 45%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth_promo {
+  z-index: 20;
+  position: relative;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.promo_image {
+  position: relative;
+  height: 50vh;
+  img {
+    pointer-events: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    max-height: 100%;
+  }
+}
+
+.promo_text {
+  color: #FFFFFF;
+  font-family: Montserrat, sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  line-height: 44px;
+  text-align: center;
+}
+
+.promo_text_bottom {
+  margin-top: 46px;
+}
+
+div {
+  .play_button {
+    height: 106px;
+    width: 106px;
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 40px 0 rgba(0,0,0,0.25);
+    border-radius: 50%;
+    left: calc(50% - 53px);
+    position: absolute;
+    &:hover {
+      background-color: rgba(255,255,255,0.7);
+    }
+    &.login_play_button {
+      top: calc(46% - 53px);
+    }
+    &.register_play_button {
+      top: calc(53% - 53px);
+    }
+    &.recovery_play_button {
+      top: calc(50% - 53px);
+      left: calc(51% - 53px);
+    }
+  }
+}
+
+.auth_buttons_wrapper {
+  & > .auth_button_wrapper:last-child {
+    margin-right: 0;
+  }
+  .auth_button_wrapper {
+    display: inline-block;
+    margin-right: 19px;
+  }
+}
+
+.auth_nav_link {
+  color: #A0A6D0;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: right;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.auth_link {
+  color: #A0A6D0;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.auth_login_options {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 24px;
+}
+
+.recovery_buttons_wrapper {
+  .auth_button_wrapper {
+    margin-right: 50px;
+  }
+}
+
+.auth_steps_box {
+  min-height: 360px;
+  min-width: 558px;
+  border-radius: 13px;
+  background-color: #0E1832;
+  box-shadow: 0 10px 40px 0 rgba(0,0,0,0.25);
+  text-align: center;
+  .auth_title {
+    font-size: 38px;
+  }
+  .auth_subtitle {
+    font-size: 16px;
+  }
+  .auth_button_wrapper {
+    margin-bottom: 22px;
+  }
+}
+
+.recovery_first_step_wrapper {
+  padding: 71px 0 34px;
+  .custom_input_wrapper {
+    margin-bottom: 35px;
+  }
+}
+
+.code_confirm_wrapper {
+  padding: 43px 0 43px;
+  img {
+    margin-bottom: 34px;
+  }
+  .custom_input_wrapper {
+    margin-bottom: 24px;
+  }
+  .auth_subtitle {
+    margin-bottom: 27px;
+  }
+}
+
+.facebook-auth_wrapper {
+  padding: 37px 0 34px;
+  .custom_input_wrapper {
+    margin-bottom: 37px;
+  }
+}
+
+.set_password_wrapper {
+  padding: 54px 0 40px;
+  img {
+    margin-bottom: 12px;
+  }
+  .custom_input_wrapper {
+    margin-bottom: 18px;
+  }
+  .auth_button_wrapper {
+    margin-bottom: 0;
+  }
+}
+
+.resend_wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.success_resend {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+  border-radius: 50%;
+  padding: 2px;
+  position: absolute;
+  right: -30%;
+  top: calc(50% - 11px);
+  svg {
+    fill: #ffffff;
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,83 @@
+.wallet_info {
+  display: flex;
+  justify-content: space-between;
+  padding: 26px 0;
+  & > div {
+    flex-grow: 1;
+    width: 30%;
+    padding: 0 38px;
+  }
+  hr {
+    background-color: rgba(255,255,255,0.11);
+    height: 100%;
+    width: 1px;
+  }
+  h4 {
+    font-size: 16px;
+    line-height: 18px;
+    text-shadow: 0 2px 24px 0 #FFFFFF;
+    font-weight: 400;
+    margin-bottom: 6px;
+  }
+  .wallet_info_amount {
+    color: rgba(255,255,255,0.5);
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+
+.wallet_balance_info {
+  a {
+    text-decoration: none;
+  }
+  .default_button_wrapper {
+    margin: 17px 0 12px;
+    .default_button_green {
+      &.default_button_big {
+        width: 180px;
+        height: 45px;
+        line-height: 45px;
+      }
+    }
+  }
+}
+
+.wallet_withdraw_info {
+  .auth_button_wrapper {
+    margin: 17px 0 12px;
+    .auth_button_outlined {
+      min-width: 180px;
+      height: 45px;
+      line-height: 45px;
+      text-transform: none;
+    }
+  }
+}
+
+.balance_green {
+  color: #2FC272;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.balance_white {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.wallet_info_question {
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.wallet_info_question_wrapper {
+  img {
+    margin-bottom: 5px;
+  }
+  p {
+    margin-bottom: 12px;
+  }
+  & > :last-child {
+    margin-bottom: 0;
+  }
+}

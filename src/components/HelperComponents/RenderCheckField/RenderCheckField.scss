@@ -1,0 +1,24 @@
+body {
+  .custom_check {
+    width: 100%;
+    margin: 0;
+    & > :first-child {
+      padding: 0;
+      margin-right: 13px;
+      & > :last-child {
+        display: none;
+      }
+    }
+    & > :last-child {
+      color: #A0A6D0;
+      font-family: "Inter", sans-serif;
+      font-size: 12px;
+      line-height: 15px;
+      text-align: left;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+  }
+}

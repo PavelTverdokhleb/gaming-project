@@ -1,0 +1,220 @@
+.dashboard_wrapper {
+  padding: 30px 0;
+  width: 100%;
+  .block_header {
+    text-align: center;
+  }
+}
+
+.slider_wrapper {
+  margin-top: 24px;
+  position: relative;
+  overflow: hidden;
+  max-height: 390px;
+  padding: 10px 0;
+  .slick-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 308px;
+    opacity: 0.3;
+    position: relative;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+  .slick-active {
+    opacity: 1;
+    background: transparent;
+  }
+}
+
+.custom_slide {
+  padding: 0 15px;
+  text-align: center;
+  img {
+    display: inline;
+    max-height: 100%;
+    max-width: 100%;
+  }
+}
+
+.slider_nav {
+  display: flex;
+  align-items: center;
+}
+
+.slider_dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  ul {
+    display: inline-block;
+    margin: 0 30px;
+  }
+  li {
+    display: inline-block;
+    margin: 0 13px;
+    &.slick-active {
+      button {
+        background-color: #D2273C;
+      }
+    }
+    button {
+      width: 20px;
+      height: 20px;
+      color: transparent;
+      background: transparent;
+      position: relative;
+      border-radius: 50%;
+      cursor: pointer;
+      -webkit-transition: all 0.2s linear;
+      -moz-transition: all 0.2s linear;
+      -ms-transition: all 0.3s linear;
+      -o-transition: all 0.3s linear;
+      transition: all 0.3s linear;
+      &:before {
+        content: '';
+        display: block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #ffffff;
+        position: absolute;
+        left: calc(50% - 5px);
+        top: calc(50% - 5px);
+        box-shadow: 0 3px 5px 0 rgba(0,0,0,0.5);
+      }
+      &:hover {
+        transform: scale(1.2);
+      }
+    }
+  }
+  .btn_nav {
+    position: absolute;
+    top: calc(268px / 2 - 21.5px);
+    &:first-of-type {
+      left: 18%;
+    }
+    &:last-of-type {
+      right: 18%;
+    }
+  }
+}
+
+div {
+  .btn_nav {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    height: 43px;
+    width: 43px;
+    padding: 2px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    cursor: pointer;
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -ms-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+    &:hover {
+      background: rgba(255,255,255,0.2);
+    }
+    svg {
+      fill: #ffffff;
+    }
+  }
+}
+
+.dashboard_content_wrapper {
+  max-width: 493px;
+  width: 100%;
+  margin: 36px auto;
+  .dashboard_block {
+    margin-bottom: 24px;
+  }
+}
+
+.dashboard_block {
+  background: linear-gradient(135deg, #102C6D 0%, #1A1E64 100%);
+  box-shadow: 0 15px 20px 0 rgba(0,0,0,0);
+}
+
+.connected_profile {
+  padding: 17px 23px 17px 34px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+  p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}
+
+.play_againts_wrapper {
+  padding-top: 5px;
+  p {
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    margin-bottom: 31px;
+  }
+}
+
+.opponent_buttons_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  & > span {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 0 20px;
+  }
+}
+
+.users_info_wrapper {
+  margin-top: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.users_info {
+  margin: 0 auto;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 22px;
+  min-width: 120px;
+  padding: 0 10px 0 8px;
+  border-radius: 4px;
+  background-color: rgba(107, 113, 144, 0.22);
+  span {
+    margin-right: 8px;
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #50E393;
+  }
+  p {
+    font-size: 13px;
+    line-height: 16px;
+  }
+}
+
+.dashboard_challenge_start {
+  text-align: center;
+  margin-top: 36px;
+  .default_button_green.default_button_big {
+    width: 254px;
+    height: 56px;
+    line-height: 56px;
+  }
+}

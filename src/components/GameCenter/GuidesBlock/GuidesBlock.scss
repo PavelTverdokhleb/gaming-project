@@ -1,0 +1,29 @@
+.guides_wrapper {
+   margin-top: 22px;
+ }
+
+.guide_item {
+  position: relative;
+  margin-top: 15px;
+  img {
+    width: 100%;
+  }
+  .item_content {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    display: flex;
+    align-items: center;
+    button {
+      padding: 1px;
+      margin-right: 10px;
+    }
+    p {
+      max-width: 60%;
+      color: #FFFFFF;
+      font-family: "Inter", sans-serif;
+      font-size: 14px;
+      line-height: 17px;
+    }
+  }
+}

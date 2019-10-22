@@ -1,0 +1,161 @@
+.wallet_page_wrapper {
+  padding: 32px 30px;
+  & > h2 {
+    font-size: 20px;
+    line-height: 15px;
+    text-shadow: 0 2px 24px 0 #FFFFFF;
+    margin-bottom: 22px;
+    font-weight: 400;
+  }
+}
+
+.wallet_page_top_block {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  & > :first-child {
+    flex-grow: 3;
+    margin-right: 30px;
+  }
+  & > :last-child {
+    flex-grow: 1;
+    width: 30%;
+  }
+  & > div {
+    background-color: #393F53;
+    box-shadow: 0 10px 40px 0 rgba(0,0,0,0.25);
+    border-radius: 10px;
+  }
+}
+
+.wallet_page_bottom_block {
+  margin-top: 25px;
+  border-radius: 10px;
+  background-color: #0E1832;
+  box-shadow: 0 10px 40px 0 rgba(0,0,0,0.25);
+  padding: 15px 18px 15px 42px;
+  position: relative;
+  height: calc(100vh - 380px);
+  .tabs_wrapper {
+    padding-right: 24px;
+  }
+  .preloader_wrapper {
+    top: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+}
+
+.wallet_table {
+  padding: 20px 0;
+}
+
+.wallet_table_header {
+  padding-right: 24px;
+  .wallet_row {
+    border-bottom: none;
+    height: 20px;
+  }
+  p {
+    color: rgba(255,255,255,0.5);
+    font-size: 10px;
+    line-height: 12px;
+  }
+}
+
+.wallet_table_body {
+  p {
+    font-size: 14px;
+    line-height: 17px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-right: 5px
+  }
+  & > :last-child {
+    border-bottom: none;
+  }
+}
+
+.wallet_type {
+  text-transform: capitalize;
+  img {
+    margin-right: 19px;
+  }
+}
+
+.wallet_row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 58px;
+  border-bottom: 1px solid #373947;
+}
+
+.transactions_columns {
+  .wallet_row {
+    & > :nth-child(1) {
+      width: 15%;
+    }
+    & > :nth-child(2) {
+      width: 25%;
+    }
+    & > :nth-child(3) {
+      width: 30%;
+    }
+    & > :nth-child(4) {
+      width: 15%;
+    }
+    & > :nth-child(5) {
+      width: 15%;
+    }
+  }
+}
+
+.game_transactions_columns {
+  .wallet_row {
+    & > :nth-child(1) {
+      width: 15%;
+    }
+    & > :nth-child(2) {
+      width: 15%;
+    }
+    & > :nth-child(3) {
+      width: 15%;
+    }
+    & > :nth-child(4) {
+      width: 15%;
+    }
+    & > :nth-child(5) {
+      width: 15%;
+    }
+    & > :nth-child(6) {
+      width: 10%;
+    }
+    & > :nth-child(7) {
+      width: 15%;
+    }
+  }
+}
+
+.wallet_amount_status {
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 13px;
+  background-color: rgba(44, 53, 79, 0.72);
+  min-width: 95px;
+  padding: 4px;
+}
+
+.in_status {
+  color: #2AEC83;
+}
+.out_status {
+  color: #F54D4D;
+}
+
+.table_body_inner {
+  padding-right: 24px;
+}

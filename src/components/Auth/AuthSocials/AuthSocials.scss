@@ -1,0 +1,16 @@
+.auth_socials {
+  p {
+    margin: 24px 0;
+    color: #A0A6D0;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+  }
+  button {
+    padding: 0;
+    margin-right: 22px;
+  }
+  & > button:last-child {
+    margin-right: 0;
+  }
+}

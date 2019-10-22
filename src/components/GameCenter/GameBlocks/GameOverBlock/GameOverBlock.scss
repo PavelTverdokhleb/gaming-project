@@ -1,0 +1,110 @@
+.game_over_block{
+  .title{
+    letter-spacing: -0.58px;
+    font-size: 28px;
+    line-height: 30px;
+    padding-top: 30px;
+    font-weight: 600;
+  }
+  i{
+    box-shadow: -68px -4px 81px 62px #750786;
+  }
+  .block_img_center{
+    padding: 33px 0 38px;
+  }
+  .block_center_btn{
+    padding: 0;
+    button{
+      margin-bottom: 13px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+  }
+  .description_block{
+    display: block;
+    padding: 14px 0 30px;
+    font-size: 12px;
+    letter-spacing: -0.27px;
+    line-height: 15px;
+  }
+  .default_button_wrapper {
+    button {
+      &:disabled {
+        &.default_button_red {
+          background: #551F39;
+        }
+        &.default_button_green {
+          background: #174A44;
+        }
+        color: #ffffff;
+        text-transform: none;
+      }
+    }
+  }
+  .snack_root {
+
+  }
+}
+
+.check_block{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 40px;
+  .submitting_results_checkbox {
+    padding: 7px 17px 17px;
+    svg {
+      fill: #6F7391;
+      font-size: 32px;
+    }
+    &.submitting_results_checkbox_checked {
+      svg {
+        fill: #2FC272;
+      }
+    }
+  }
+  .text_check{
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 12px;
+    font-family: "Inter", sans-serif;
+    text-align: left;
+  }
+}
+
+.game_info{
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  align-items: center;
+  padding-bottom: 3px;
+  button{
+    margin: 13px 0 21px;
+    color: #A0A6D0;
+    font-size: 14px;
+    line-height: 17px;
+    cursor: pointer;
+    background-color: transparent;
+    text-decoration: underline;
+    font-family: "Inter", sans-serif;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+  span{
+    font-size: 12px;
+    letter-spacing: -0.27px;
+    line-height: 15px;
+    text-align: center;
+  }
+  p{
+    margin: 13px 0 21px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

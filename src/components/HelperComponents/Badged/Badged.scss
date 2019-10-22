@@ -1,0 +1,44 @@
+.notifications_badge {
+  .custom_badge {
+    background-color: #ff0000;
+    font-family: "Inter", sans-serif;
+    border-radius: 2px;
+    font-size: 7px;
+    padding: 0;
+    min-width: 12px;
+    height: 12px;
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+}
+
+.sidebar_badge {
+  display: block;
+  width: 100%;
+  position: relative;
+  .custom_badge {
+    top: 50%;
+    right: 40px;
+    background-color: #ff0000;
+    font-family: "Inter", sans-serif;
+    border-radius: 2px;
+    font-size: 7px;
+    padding: 0;
+    min-width: 12px;
+    height: 12px;
+    cursor: default;
+    line-height: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  &.no_number {
+    .custom_badge {
+      color: transparent;
+    }
+  }
+}

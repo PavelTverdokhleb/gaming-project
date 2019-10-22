@@ -1,0 +1,34 @@
+.snack_root {
+  margin-bottom: 20px;
+  &.error_snack {
+    div {
+      background-color: #FF4D62;
+      font-family: "Inter", sans-serif;
+      svg {
+        fill: #ffffff;
+      }
+    }
+  }
+  &.success_snack {
+    div {
+      background-color: #28A745;
+      font-family: "Inter", sans-serif;
+      svg {
+        fill: #ffffff;
+      }
+    }
+  }
+  &.game_over_info_snack {
+    & > div {
+      flex-wrap: nowrap;
+      background-color: #0E1832;
+      font-family: "Inter", sans-serif;
+      border: 1px solid #373947;
+      box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.25);
+      max-width: none;
+      svg {
+        fill: #ffffff;
+      }
+    }
+  }
+}

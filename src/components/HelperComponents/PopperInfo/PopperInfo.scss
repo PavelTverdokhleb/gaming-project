@@ -1,0 +1,49 @@
+body {
+  .popper_info_root {
+    z-index: 999;
+  }
+}
+
+.popper_wrapper {
+  background-color: #ffffff;
+  border-radius: 6px;
+  color: #0E1832;
+  font-family: "Inter", sans-serif;
+  font-size: 12px;
+  line-height: 15px;
+  padding: 8px;
+  max-width: 200px;
+  min-width: 80px;
+  position: relative;
+  margin-top: 20px;
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 20px;
+    top: 0;
+    z-index: -99;
+    background-color: #ffffff;
+    width: 16px;
+    height: 16px;
+    margin-top: -7px;
+    -webkit-transform: rotate(40deg) skewX(-20deg) skewY(-10deg);
+    -moz-transform: rotate(40deg) skewX(-20deg) skewY(-10deg);
+    -ms-transform: rotate(40deg) skewX(-20deg) skewY(-10deg);
+    -o-transform: rotate(40deg) skewX(-20deg) skewY(-10deg);
+    transform: rotate(40deg) skewX(-20deg) skewY(-10deg);
+  }
+}
+
+div {
+  .instant_rematch_popper {
+    margin: 15px 0 0 75px;
+  }
+  .approve_friend {
+    margin: -20px 0 0 135px;
+  }
+
+  .challenge_popper {
+    margin-left: 50px;
+  }
+}

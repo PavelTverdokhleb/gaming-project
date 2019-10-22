@@ -1,0 +1,28 @@
+.challenges_wrapper {
+  width: 100%;
+  padding: 32px 30px;
+}
+
+.challenges_inner {
+  border-radius: 10px;
+  background-color: #0E1832;
+  box-shadow: 0 10px 40px 0 rgba(0,0,0,0.25);
+  height: 100%;
+  padding: 36px 30px;
+  overflow: auto;
+  h2 {
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 400;
+  }
+}
+
+.challenges_list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 37px 0;
+  & > :nth-child(3n) {
+    margin-right: 0;
+  }
+}

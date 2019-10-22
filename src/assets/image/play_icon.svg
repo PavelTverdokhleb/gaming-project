@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="49px" viewBox="0 0 48 49" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>9C36CB53-B788-488C-9ED5-3FFC1635844D</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="89.9488729%" y1="16.2910841%" x2="11.5601977%" y2="61.1399191%" id="linearGradient-1">
+            <stop stop-color="#FF344D" offset="0%"></stop>
+            <stop stop-color="#D2273C" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="First-Sprint-" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main-Page" transform="translate(-1093.000000, -775.000000)" fill-rule="nonzero">
+            <g id="Videos" transform="translate(1080.000000, 642.000000)">
+                <g id="Video-1-" transform="translate(1.000000, 49.000000)">
+                    <g id="Play-Button" transform="translate(12.000000, 84.000000)">
+                        <ellipse id="Oval" fill="url(#linearGradient-1)" cx="24" cy="24.5" rx="24" ry="24.5"></ellipse>
+                        <path d="M25.7728217,19.0887033 L30.4620793,28.074729 C30.9730924,29.0539835 30.5935077,30.2620841 29.6142532,30.7730971 C29.328609,30.9221574 29.0111803,31 28.6889822,31 L19.3104669,31 C18.2058974,31 17.3104669,30.1045695 17.3104669,29 C17.3104669,28.6778019 17.3883095,28.3603732 17.5373698,28.074729 L22.2266274,19.0887033 C22.7376405,18.1094488 23.9457411,17.7298641 24.9249956,18.2408772 C25.2876598,18.4301295 25.5835694,18.7260391 25.7728217,19.0887033 Z" id="Triangle" fill="#FFFFFF" transform="translate(24.000000, 25.000000) rotate(-270.000000) translate(-24.000000, -25.000000) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

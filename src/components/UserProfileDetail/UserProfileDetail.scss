@@ -1,0 +1,293 @@
+.profile_detail_wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 37px 30px;
+  & > :first-child {
+    width: 60%;
+    margin-right: 30px;
+  }
+  & > :last-child {
+    width: 40%;
+  }
+  .profile_info_wrapper {
+    padding: 20px 0;
+  }
+}
+
+.profile_detail_box {
+  border: 1px solid #373947;
+  border-radius: 10px;
+  background-color: #0E1832;
+  box-shadow: 0 10px 40px 0 rgba(0,0,0,0.25);
+}
+
+.profile_detail_info {
+  padding: 0 29px 0 43px;
+}
+
+.profile_connected_info {
+  padding: 0 30px;
+}
+
+.profile_detail_head {
+  padding-top: 5px;
+  height: 82px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  h4 {
+    font-weight: 400;
+    font-size: 18px;
+  }
+}
+
+.locked_connected_profiles {
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  img {
+    margin-bottom: 28px;
+  }
+  p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+.unlocked_connected_profiles {
+  padding: 20px 0;
+  & > :last-child {
+    margin-bottom: 0;
+  }
+  & > p {
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 20px;
+  }
+}
+
+.user_platform_title {
+  margin-left: 25px;
+  max-width: calc(100% - 310px);
+  & > span {
+    opacity: 0.5;
+    color: rgba(255,255,255,0.72);
+    font-size: 14px;
+    line-height: 17px;
+  }
+  & > p {
+    color: rgba(255,255,255,0.72);
+    font-size: 18px;
+    line-height: 21px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+.profile_info_games {
+  padding: 28px 0 44px;
+  & > p {
+    margin-bottom: 34px;
+  }
+}
+
+.played_games_wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  p {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+  }
+  & > :last-child {
+    margin-right: 0;
+  }
+}
+
+.recently_played_game {
+  overflow: hidden;
+  width: 32%;
+  margin-right: 2%;
+  text-align: center;
+  img {
+    max-height: 205px;
+    border-radius: 16px;
+  }
+}
+
+.remove_user_btn {
+  opacity: 0.5;
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: underline;
+  background: transparent;
+  cursor: pointer;
+  padding: 15px;
+  margin-right: -15px;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  &:hover {
+    opacity: 1;
+    text-decoration: none;
+  }
+}
+
+.user_platform_profile {
+  height: 128px;
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 15px 20px 0 rgba(0,0,0,0);
+  padding: 20px 28px;
+  margin-bottom: 20px;
+  position: relative;
+  .game_profile_link {
+    background: transparent;
+    height: 60px;
+    a {
+      padding: 0 28px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
+
+.user_platform_profile_xbox {
+  background: linear-gradient(135deg, #106D6C 0%, #1A6444 100%);
+}
+
+.user_platform_profile_psn {
+  background: linear-gradient(135deg, #102C6D 0%, #1A1E64 100%);
+}
+
+.user_platform_profile_steam {
+  background: linear-gradient(135deg, #4F4F4F 0%, #212121 100%);
+}
+
+.remove_friend_wrapper {
+  width: 558px;
+  height: 129px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  h3 {
+    font-family: Montserrat, sans-serif;
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 47px;
+    text-align: center;
+  }
+  .logout_buttons {
+    margin: 0;
+  }
+}
+
+div {
+  .dialog_close_btn {
+    position: absolute;
+    right: 26px;
+    top: 31px;
+    border: 1px solid #7E8D9C;
+    width: 31px;
+    height: 31px;
+    padding: 2px;
+    svg {
+      fill: #ffffff;
+      font-size: 18px;
+    }
+  }
+}
+
+.user_platform_profile_link {
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin: 17px 0;
+  height: calc(100% - 17px * 2);
+  min-width: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid rgba(255,255,255,0.17);
+  z-index: 1000;
+  a {
+    height: 58px;
+    width: 209px;
+    border-radius: 31px;
+    display: block;
+    font-size: 16px;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: rgba(255,255,255,1);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    position: relative;
+    &:before{
+      content: '';
+      position: absolute;
+      top: -1px;
+      left: -1px;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      border-radius: 26.78px;
+      border: 1px solid rgba(255,255,255,1);
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+    }
+    &:hover:before{
+      opacity: 0;
+      -webkit-transform: scale(1.2,1.2);
+      transform: scale(1.2,1.2);
+    }
+    &:after{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      opacity: 0;
+      border-radius: 26.78px;
+      background-color: rgba(255,255,255,0.25);
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+      -webkit-transform: scale(0.5,0.5);
+      transform: scale(0.5,0.5);
+    }
+    &:hover:after{
+      opacity: 1 ;
+      -webkit-transform: scale(1,1);
+      transform: scale(1,1);
+    }
+  }
+}
+
+.logo_console {
+  display: block;
+  border: 1px solid #ffffff;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}

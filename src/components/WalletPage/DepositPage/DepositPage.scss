@@ -1,0 +1,150 @@
+.wallet_operations_wrapper {
+  background-color: #292F4C;
+  position: fixed;
+  z-index: 99999;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 80px 90px;
+  overflow: auto;
+  & > a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 18px;
+    text-shadow: 0 2px 24px 0 #FFFFFF;
+    margin-bottom: 44px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  h2 {
+    font-size: 24px;
+    line-height: 28px;
+    text-shadow: 0 2px 24px 0 #FFFFFF;
+    font-weight: 400;
+    span {
+      margin-left: 10px;
+      color: #2FC272;
+      font-size: 18px;
+      line-height: 21px;
+    }
+  }
+  p {
+    margin-top: 6px;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 18px;
+    text-shadow: 0 2px 24px 0 #FFFFFF;
+    &.payment_policy {
+      margin-top: 140px;
+    }
+    a {
+      color: #ffffff;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.wallet_operation_values {
+  margin: 29px 0 28px;
+  & > :last-child {
+    margin-right: 0;
+  }
+  button {
+    height: 37px;
+    min-width: 110px;
+    border-radius: 18.5px;
+    background-color: #0D1A33;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-shadow: 0 2px 24px 0 #FFFFFF;
+    margin-right: 20px;
+    cursor: pointer;
+    border: 2px solid #0D1A33;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    -ms-transition: all 0.1s linear;
+    -o-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+    &:hover {
+      border: 2px solid rgba(47, 194, 114, 0.5);
+    }
+    &.active {
+      border: 2px solid #2FC272;
+    }
+  }
+}
+
+.wallet_operations_balance {
+  padding: 18px 0;
+  border-bottom: 1px solid #606370;
+  margin-bottom: 21px;
+}
+
+.payment_methods_wrapper {
+  margin: 24px 0;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.payment_item_wrapper {
+  position: relative;
+}
+
+.payment_button_container {
+  width: 235px;
+}
+
+.withdraw_button_container {
+  position: absolute;
+  left: 0;
+  bottom: -80px;
+  width: 235px;
+  .default_button_wrapper {
+    .default_button_green {
+      width: 100%;
+      font-size: 14px;
+      &:disabled {
+        color: #ffffff;
+        opacity: 0.7;
+      }
+    }
+  }
+}
+
+.deposit_preload_wrapper {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 99999;
+  div {
+    color: #ff344d;
+  }
+}
+
+.withdraw_field {
+  display: flex;
+  align-items: center;
+  .custom_input_wrapper {
+    width: 235px;
+    margin-right: 10px;
+  }
+  img {
+    margin: 0 0 0 30px;
+  }
+}

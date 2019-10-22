@@ -1,0 +1,34 @@
+.points_block {
+  min-width: 54px;
+  box-shadow: 0 13px 14px 0 rgba(37,78,56,0.26);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 8px;
+    margin-left: 4px;
+  }
+}
+
+.points_default {
+  height: 17px;
+  border-radius: 8.5px;
+  background-color: #2FC272;
+  padding: 0 12px;
+  span {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+
+.points_friends {
+  color: #2AEC83;
+  height: 26px;
+  border-radius: 13px;
+  background-color: rgba(52, 51, 102, 0.72);
+  padding: 0 8px;
+  span {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}

@@ -1,0 +1,35 @@
+.registration_success {
+  text-align: center;
+  img {
+    margin-bottom: 17px;
+  }
+  h3 {
+    color: #FFFFFF;
+    font-family: Montserrat, sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 47px;
+  }
+  p {
+    margin: 8px 0 15px;
+    max-width: 240px;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+  }
+  button {
+    background: transparent;
+    color: #57A1E6;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    text-decoration: underline;
+    cursor: pointer;
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}

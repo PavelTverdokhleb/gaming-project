@@ -1,0 +1,98 @@
+.profile_block {
+  padding: 52px 82px 116px;
+  .auth_button_contained {
+    width: auto;
+    display: inline-block;
+    padding:  0 25px;
+    margin-top: 10px;
+  }
+}
+
+.profile_avatar_wrapper {
+  margin-right: 80px;
+  position: relative;
+  .profile_avatar {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+  }
+  .profile_avatar_info {
+    font-size: 14px;
+    line-height: 17px;
+    white-space: nowrap;
+    margin: 43px 0 36px;
+  }
+  .auth_button_wrapper {
+    text-align: center;
+    .auth_button {
+      margin: 0 auto;
+    }
+  }
+}
+
+.settings_profile_wrapper {
+  padding-top: 24px;
+  h3 {
+    font-size: 24px;
+    line-height: 22px;
+    margin-bottom: 40px;
+    font-weight: 400;
+  }
+  .auth_button_contained {
+    margin-top: 16px;
+  }
+}
+
+.profile_settings_info {
+  margin-bottom: 20px;
+  max-width: calc(100% - 80px);
+  span {
+    opacity: 0.5;
+    color: rgba(255,255,255,0.72);
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 6px;
+    display: block;
+  }
+  p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: rgba(255,255,255,0.72);
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0;
+  }
+}
+
+.edit_username {
+  min-height: 71px;
+  width: 300px;
+  form {
+    width: 100%;
+  }
+  .custom_input_wrapper {
+    margin: 0 22px 20px 0;
+  }
+  .auth_button_wrapper {
+    margin-bottom: 20px;
+  }
+  .auth_button {
+    height: 38px;
+    line-height: 38px;
+    min-width: 68px;
+    padding: 0 20px;
+  }
+}
+
+.fileInput {
+  display: none;
+}
+
+.profile_avatar_message {
+  position: absolute;
+  bottom: -20px;
+  left: 0;
+  font-size: 10px;
+  color: #ff344d;
+}

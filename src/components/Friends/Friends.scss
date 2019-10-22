@@ -1,0 +1,14 @@
+.friends_wrapper {
+  padding: 32px 30px;
+  min-height: calc(100vh - 50px);
+  &.blocks_row_wrapper {
+    align-items: stretch;
+  }
+  & > :first-child {
+    width: 29%;
+  }
+  & > :last-child {
+    width: 71%;
+    margin-left: 30px;
+  }
+}

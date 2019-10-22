@@ -1,0 +1,26 @@
+.progress_bar_wrapper {
+  position: relative;
+  .progress_bar {
+    background-color: #ffffff;
+    height: 5px;
+    border-radius: 2.5px;
+    div {
+      background-color: #1D63B4;
+      border-radius: 2.5px;
+    }
+  }
+}
+
+.progress_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5px 0 3px;
+  span {
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 9px;
+    font-weight: 500;
+    line-height: 10px;
+  }
+}

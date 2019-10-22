@@ -1,0 +1,41 @@
+.default_button_wrapper {
+  .default_button {
+    border-radius: 26.78px;
+    color: #FFFFFF;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 400;
+    text-transform: none;
+    padding: 0;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    &.default_button_green {
+      background: linear-gradient(270deg, #2FC272 0%, #33BC71 100%);
+    }
+    &.default_button_red {
+      background: linear-gradient(240.22deg, #FF344D 0%, #D2273C 100%);
+    }
+    &.default_button_transparent {
+      box-shadow: 0 10px 40px 0 rgba(0,0,0,0.25);
+      background: transparent;
+      border: 1px solid #fff;
+    }
+    &.default_button_big {
+      height: 50px;
+      width: 216px;
+      line-height: 50px;
+    }
+    &.default_button_small {
+      height: 41px;
+      width: 92px;
+      line-height: 41px;
+    }
+    .btn_progress {
+      color: #ffffff;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+div {
+  .switch_wrapper {
+    width: 74px;
+    padding: 0 10px;
+    .switch_base {
+      width: 100%;
+      padding: 0 3px;
+      justify-content: flex-start;
+    }
+    .switch_bar {
+      background-color: #19214D;
+      height: 28px;
+      width: 54px;
+      margin-top: -14px;
+      margin-left: -27px;
+      border-radius: 16px;
+      opacity: 1;
+    }
+    .switch_icon {
+      width: 22px;
+      height: 22px;
+      -webkit-transition: all 0.1s linear;
+      -moz-transition: all 0.1s linear;
+      -ms-transition: all 0.1s linear;
+      -o-transition: all 0.1s linear;
+      transition: all 0.1s linear;
+    }
+    .switch_checked {
+      transform: translateX(0px);
+      color: #ffffff;
+      .switch_icon {
+        transform: translateX(26px);
+      }
+      & + .switch_bar {
+        background: linear-gradient(240.22deg, #FF344D 0%, #D2273C 100%);
+      }
+    }
+  }
+}

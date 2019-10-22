@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(180deg, #1B0B58 0%, #0D023B 100%);
+  min-height: 100vh;
+  font-family: "Inter", sans-serif;
+  color: #ffffff;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.main_container {
+  padding: 50px 0 0 245px;
+  color: #ffffff;
+}
+
+.get_started_wrapper {
+  padding: 178px 102px 50px 102px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  .preloader_wrapper {
+    top: 0;
+  }
+}
+
+.block_header {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.default_box {
+  border-radius: 10px;
+  background-color: #0E1832;
+  box-shadow: 0 10px 40px 0 rgba(0,0,0,0.25);
+}
+
+.blocks_row_wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.profile_hr {
+  height: 2px;
+  width: 100%;
+  border: 1px solid #373947;
+}
+
+.back_link {
+  padding-left: 20px;
+  position: relative;
+  color: #ffffff;
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  &:hover {
+    img {
+      -webkit-animation: back_link 1s linear infinite;
+      animation: back_link 1s linear infinite;
+    }
+  }
+  img {
+    position: absolute;
+    left: 0;
+    top: calc(50% - 5.5px);
+  }
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-center-btw {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.default_label {
+  opacity: 0.5;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.page_title {
+  color: #FFFFFF;
+  font-family: Montserrat, sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  letter-spacing: -2.08px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.get_start_box {
+  border: 1px solid #373947;
+  border-radius: 10px;
+  background-color: #0E1832;
+  box-shadow: 0 10px 40px 0 rgba(0,0,0,0.25);
+  padding: 25px;
+}
+
+.get_start_title {
+  font-family: Montserrat, sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: -0.58px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.full_block {
+  width: 100%;
+}
+
+.search_anim {
+  -webkit-animation: search_block 2s linear infinite;
+  animation: search_block 2s linear infinite;
+}

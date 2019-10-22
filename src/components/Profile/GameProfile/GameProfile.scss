@@ -1,0 +1,139 @@
+.game_profile_box {
+  position: relative;
+  overflow: hidden;
+  min-height: 223px;
+  width: 100%;
+  max-width: 333px;
+  border-radius: 10px;
+  padding: 30px 24px 53px;
+  box-shadow: 0 15px 20px 0 rgba(0,0,0,0);
+  .game_profile_title {
+    margin-left: 14px;
+  }
+  .badge_game_profile {
+    background: #ffffff;
+    border-radius: 50%;
+    min-width: 14px;
+    height: 14px;
+    padding: 0;
+    top: 8px;
+    right: 8px;
+  }
+}
+
+.active_profile {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 7px;
+}
+
+.active_xbox_profile {
+  background: linear-gradient(90deg, #00D047 0%, #66A300 100%);
+}
+
+.active_psn_profile {
+  background: linear-gradient(90deg, #0090D0 0%, #0057A3 100%);
+}
+
+.active_steam_profile {
+  background: linear-gradient(90deg, #ECF9FF 0%, #54585B 100%);
+}
+
+.xbox_profile {
+  background: linear-gradient(135deg, #106D6C 0%, #1A6444 100%);
+}
+
+.psn_profile {
+  background: linear-gradient(135deg, #102C6D 0%, #1A1E64 100%);
+}
+
+.steam_profile {
+  background: linear-gradient(135deg, #4F4F4F 0%, #212121 100%);
+}
+
+.game_profile_header {
+  display: flex;
+  align-items: center;
+}
+
+.game_profile_title {
+  p {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+  }
+  span {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+.game_profile_link {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 53px;
+  background-color: rgba(10, 12, 48, 0.38);
+  display: inline-flex;
+  align-items: center;
+  &.game_profile_link_short {
+    width: 60%;
+  }
+  a {
+    color: #ffffff;
+    text-decoration: none;
+    line-height: 15px;
+    padding: 0 22px;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.game_profile_content {
+  min-height: 51px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  .auth_button_wrapper {
+    margin-left: 28px;
+  }
+  .auth_button {
+    min-width: 69px;
+    height: 38px;
+    line-height: 38px;
+    padding: 0 20px;
+    text-transform: none;
+  }
+}
+
+.game_profile_info {
+  width: 60%;
+  span {
+    opacity: 0.5;
+    color: rgba(255,255,255,0.72);
+    font-size: 14px;
+    line-height: 17px;
+    margin-bottom: 6px;
+  }
+  p {
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 21px;
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}

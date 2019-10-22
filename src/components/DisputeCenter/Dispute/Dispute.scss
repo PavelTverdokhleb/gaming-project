@@ -1,0 +1,88 @@
+.dispute_chat_header {
+  padding: 17px 65px 17px 35px;
+  &.chat_header > :first-child {
+    display: block;
+  }
+  span {
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .flex-center {
+    & > span {
+      color: rgba(255,255,255,0.75);
+      margin-right: 10px;
+    }
+  }
+  hr {
+    height: 100%;
+    width: 1px;
+    background: #535966;
+  }
+}
+
+.dispute_header_info {
+  display: flex;
+  align-items: center;
+}
+
+.dispute_header_avatars {
+  position: relative;
+  width: 80px;
+  height: 46px;
+  & > div {
+    position: absolute;
+  }
+  & > :first-child {
+    left: 0;
+    top: 0;
+    height: 46px;
+    width: 46px;
+  }
+  & > :last-child {
+    right: 0;
+    top: -2px;
+    height: 50px;
+    width: 50px;
+    border: 2px solid #2C3342;
+  }
+}
+
+.dispute_header_usernames {
+  margin-left: 20px;
+  p {
+    opacity: 0.75;
+    color: rgba(255,255,255,0.75);
+    font-size: 12px;
+    line-height: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  img {
+    width: 14px;
+    margin-right: 4px;
+  }
+}
+
+.dispute_header_agent {
+  p {
+    color: rgba(255,255,255,0.75);
+    font-size: 12px;
+    line-height: 22px;
+  }
+}
+
+.dispute_resolved {
+  height: 90px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 -8px 30px 0 rgba(0,0,0,0.05);
+  p {
+    color: rgba(255,255,255,0.5);
+    font-size: 12px;
+    line-height: 12px;
+  }
+}

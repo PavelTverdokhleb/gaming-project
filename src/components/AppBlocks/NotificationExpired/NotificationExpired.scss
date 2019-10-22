@@ -1,0 +1,21 @@
+.notification_expired_wrapper {
+  height: 252px;
+  width: 301px;
+  border-radius: 10px;
+  background-color: #0E1832;
+  box-shadow: 0 10px 40px 0 rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 23px 0 32px;
+  a {
+    text-decoration: none;
+  }
+  p {
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-shadow: 0 2px 24px 0 #FFFFFF;
+  }
+}

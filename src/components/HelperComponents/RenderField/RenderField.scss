@@ -1,0 +1,71 @@
+.custom_input_wrapper {
+  width: 100%;
+  max-width: 329px;
+  .custom_input_label {
+    font-family: 'Inter', sans-serif;
+    color: rgba(255,255,255,0.72);
+    font-size: 14px;
+    opacity: 0.5;
+    transform: translate(22px, 20px);
+    &.custom_input_label_focused {
+      color: rgba(255,255,255,0.72);
+      transform: translate(22px, 10px) scale(0.75);
+    }
+    &.custom_input_label_active {
+      transform: translate(22px, 10px) scale(0.75);
+    }
+    &.custom_input_label_error {
+      color: #f44336;
+    }
+  }
+  .custom_input {
+    font-family: 'Inter', sans-serif;
+    background-color: #19214D;
+    color: rgba(255,255,255,0.72);
+    font-size: 14px;
+    border-radius: 0;
+    &:hover {
+      background-color: #19214D;
+      &:before {
+        border-bottom: 2px solid rgba(255,255,255,0.6) !important;
+      }
+    }
+    &:focus {
+      background-color: #19214D;
+    }
+    &:before {
+      border-bottom: 2px solid rgba(255,255,255,0.35);
+    }
+    input {
+      padding: 26px 22px 9px;
+    }
+    &.custom_input_focused {
+      background-color: #19214D;
+      &:after {
+        border-bottom: 2px solid #FFFFFF;
+      }
+    }
+    &.custom_input_error {
+      &:after {
+        border-bottom: 2px solid #f44336;
+      }
+    }
+  }
+  .custom_input_adorned {
+    div {
+      svg {
+        fill: #f44336;
+        cursor: pointer;
+      }
+    }
+  }
+  .custom_input_multiline {
+    padding: 27px 22px 10px
+  }
+  .field_clear_btn {
+    padding: 2px;
+    img {
+      width: 12px;
+    }
+  }
+}

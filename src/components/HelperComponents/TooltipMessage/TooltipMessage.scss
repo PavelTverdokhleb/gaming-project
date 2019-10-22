@@ -1,0 +1,20 @@
+.message_popper {
+  .message_tooltip {
+    background-color: #29323C;
+    font-size: 10px;
+    word-break: break-word;
+    font-family: Montserrat, sans-serif;
+  }
+  .error_message_tooltip {
+    background-color: #FF4D62;
+    font-size: 10px;
+    font-family: Montserrat, sans-serif;
+  }
+}
+
+body {
+  .auth_tooltip_popper {
+    top: 8px;
+    left: 9px;
+  }
+}

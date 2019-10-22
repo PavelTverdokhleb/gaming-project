@@ -1,0 +1,126 @@
+.last_played_block {
+  overflow: hidden;
+  margin: 0 auto;
+  height: 138px;
+  width: 100%;
+  max-width: 735px;
+  border-radius: 10px;
+  background: linear-gradient(135deg, #102C6D 0%, #1A1E64 100%);
+  box-shadow: 0 15px 20px 0 rgba(0,0,0,0);
+  display: flex;
+  justify-content: space-between;
+  & > :nth-child(1) {
+    width: 15%;
+  }
+  & > :nth-child(2) {
+    width: 35%;
+  }
+  & > :nth-child(3) {
+    width: 35%;
+    margin: 15px 0;
+    border-left: 1px solid rgba(255,255,255,0.17);
+    border-right: 1px solid rgba(255,255,255,0.17);
+  }
+  & > :nth-child(4) {
+    width: 15%;
+  }
+}
+
+.last_played_game_logo {
+  img {
+    width: 100%;
+    max-height: 100%;
+  }
+}
+
+.played_game_info {
+  padding: 15px 30px;
+  .auth_button {
+    height: 38px;
+    min-width: 90px;
+    line-height: 38px;
+    padding: 0 15px;
+    text-transform: none;
+  }
+  & > :last-child {
+    margin-top: 20px;
+  }
+}
+
+.played_game_opponent {
+  padding: 0 35px;
+  .flex-center {
+    margin-top: 20px;
+  }
+  .opponent_avatar {
+    width: 51px;
+    height: 51px;
+    margin-right: 12px;
+  }
+}
+
+.opponent_profile_image_wrapper {
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+  margin-right: 10px;
+  img {
+    margin-bottom: 3px;
+  }
+}
+
+.opponent_profiles {
+  & > div {
+    margin-bottom: 5px;
+  }
+  span {
+    font-size: 16px;
+    line-height: 18px;
+    max-width: 90px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: inline-block;
+  }
+}
+
+.played_game_status {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  & > div {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+  }
+  span {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  img {
+    margin: 0 0 2px 5px;
+  }
+}
+
+.victory_game {
+  color: #33F389;
+}
+
+.defeat_game {
+  color: #FC334C;
+}
+
+.stake_value {
+  img {
+    margin: 0 0 2px 5px;
+  }
+}
+
+.info_half_blocks {
+  & > :first-child {
+    width: 60%;
+  }
+  & > :last-child {
+    width: 40%;
+  }
+}

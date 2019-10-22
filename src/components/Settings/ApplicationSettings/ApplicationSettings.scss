@@ -1,0 +1,32 @@
+.application_block {
+  padding: 59px 30px 227px 45px;
+  .settings_form_wrapper {
+    max-width: 360px;
+  }
+  .deactivate_block {
+    font-family: Rubik, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+    margin-top: 20px;
+    a {
+      color: #A0A6D0;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.application_settings_row {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.application_setting_title {
+  font-size: 16px;
+  line-height: 18px;
+}
+

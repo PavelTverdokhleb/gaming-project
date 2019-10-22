@@ -1,0 +1,40 @@
+.default_dialog_root {
+  & > :first-child {
+    background-color: rgba(5, 9, 18, 0.8);
+  }
+  & > :last-child {
+    & > :first-child {
+      background: transparent;
+      box-shadow: 0 10px 40px 0 rgba(0,0,0,0.25);
+      border-radius: 13px;
+    }
+  }
+  .dialog_close_button {
+    cursor: pointer;
+    position: absolute;
+    right: 26.5px;
+    top: 31.5px;
+    padding: 9.5px;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid rgba(126,141,156,0.6);
+    img {
+      width: 10px;
+      height: 10px;
+    }
+  }
+}
+
+.dialog_wrapper {
+  border-radius: 13px;
+  background-color: #0E1832;
+  padding: 30px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
+}
+
+
+

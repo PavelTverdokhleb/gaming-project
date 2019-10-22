@@ -1,0 +1,149 @@
+.dispute_item_wrapper {
+  min-height: 188px;
+  min-width: 300px;
+  width: 32%;
+  border: 1px solid #373947;
+  border-radius: 6px;
+  background-color: #0E1832;
+  box-shadow: 0 10px 40px 0 rgba(0,0,0,0.25);
+  padding: 15px;
+  margin: 0 2% 20px 0;
+  p {
+    white-space: nowrap;
+  }
+}
+
+.dispute_item_username {
+  max-width: 90%;
+}
+
+.dispute_item_top_info {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+  div {
+    hr {
+      margin: 0 10px;
+      height: 19px;
+      width: 2px;
+      background: #373947;
+    }
+  }
+  span {
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 22px;
+  }
+}
+
+.dispute_item_main_info {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: 16px 0;
+  border-bottom: 1px solid #373947;
+  span {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .dispute_item_avatar {
+    width: 40px;
+    height: 40px;
+    margin-right: 25px;
+  }
+}
+
+.dispute_item_opponent {
+  max-width: 70%;
+  p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+.dispute_item_bottom_info {
+  margin-top: 16px;
+  span {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  p {
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 18px;
+  }
+  a {
+    position: relative;
+    text-decoration: none;
+    display: block;
+    width: 42px;
+    height: 42px;
+    background-color: #2C3240;
+    border-radius: 50%;
+    text-align: center;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    -ms-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    &:hover {
+      background-color: #3b4457;
+    }
+    img {
+      margin: 15px 0;
+    }
+  }
+}
+
+.dispute_has_events {
+  display: block;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  right: 3px;
+  top: 0;
+  border: 2px solid #0E1832;
+  background: #ff344d;
+  border-radius: 50%;
+}
+
+.dispute_item_status {
+  font-size: 10px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  svg {
+    margin-left: 4px;
+    font-size: 16px;
+  }
+}
+
+.dispute_status_pending {
+  color: #F3BB48;
+  svg {
+    fill: #F3BB48;
+  }
+}
+
+.dispute_status_win {
+  color: #2FC272;
+  svg {
+    fill: #2FC272;
+  }
+}
+
+.dispute_status_lost {
+  color: #FD334C;
+  svg {
+    fill: #FD334C;
+  }
+}
+
+.dispute_status_draw {
+  color: #FFFFFF;
+  svg {
+    fill: #FFFFFF;
+  }
+}

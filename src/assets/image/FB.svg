@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="55px" height="54px" viewBox="0 0 55 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>FB</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Login" transform="translate(-827.000000, -687.000000)">
+            <g id="Social" transform="translate(828.000000, 640.000000)">
+                <g id="FB" transform="translate(0.000000, 48.000000)">
+                    <ellipse id="Oval" stroke="#FFFFFF" fill="#19214D" fill-rule="nonzero" opacity="0.75" cx="26.5" cy="26" rx="26.5" ry="26"></ellipse>
+                    <g id="facebook" transform="translate(21.000000, 15.000000)" fill="#FFFFFF">
+                        <path d="M2.75,7.33333333 L0,7.33333333 L0,11 L2.75,11 L2.75,22 L7.33333333,22 L7.33333333,11 L10.6718333,11 L11,7.33333333 L7.33333333,7.33333333 L7.33333333,5.80525 C7.33333333,4.92983333 7.50933333,4.58333333 8.35541667,4.58333333 L11,4.58333333 L11,0 L7.50933333,0 C4.213,0 2.75,1.45108333 2.75,4.23041667 L2.75,7.33333333 Z" id="Path"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

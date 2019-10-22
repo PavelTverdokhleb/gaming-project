@@ -1,0 +1,14 @@
+.preloader_wrapper {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  & > div {
+    height: 2px;
+    background-color: #0E1832;
+    &> div {
+      background-color: #EF3047;
+    }
+  }
+}

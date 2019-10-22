@@ -1,0 +1,24 @@
+.auth_head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 67px 102px 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+.auth_links {
+  & > :first-child {
+    margin-left: 0;
+  }
+  span {
+    color: #FFFFFF;
+    font-family: ".SF NS Display", sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 54px;
+  }
+}

@@ -1,0 +1,134 @@
+.chat_list_wrapper {
+  height: calc(100vh - 50px);
+  width: 360px;
+  min-width: 360px;
+  background-color: #0E1832;
+  box-shadow: 0 10px 40px 0 rgba(0,0,0,0.25);
+  padding-top: 44px;
+  position: relative;
+  overflow: hidden;
+  .preloader_wrapper {
+    top: 0;
+  }
+  .friends_search_container {
+    padding: 0 17px;
+    margin-bottom: 10px;
+  }
+  .search_friend_wrapper {
+    button {
+      padding: 15px;
+    }
+  }
+}
+
+.chat_list_item {
+  height: 71px;
+  display: flex;
+  align-items: center;
+  padding: 0 27px 0 17px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  &:hover {
+    background-color: #343A4C;
+  }
+  &.chat_list_item_active {
+    background-color: #343A4C;
+  }
+}
+
+.chat_list_item_avatar {
+  position: relative;
+  .chat_list_avatar {
+    width: 46px;
+    height: 46px;
+  }
+  .user_status {
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    display: block;
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    z-index: 999;
+    border: 4px solid #0E1832;
+    &.online_user {
+      background-color: green;
+    }
+    &.offline_user {
+      background-color: red;
+    }
+  }
+}
+
+.chat_list_item_info {
+  margin-left: 10px;
+  width: 80%;
+}
+
+.chat_list_item_message {
+  color: rgba(255,255,255, 0.75);
+  font-size: 10px;
+  line-height: 12px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+}
+
+.chat_list_item_top_info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  span {
+    font-size: 10px;
+    line-height: 22px;
+    text-align: right;
+  }
+  p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 70%;
+  }
+}
+
+.chat_list_item_date {
+  position: relative;
+}
+
+.new_massage_indicator {
+  position: absolute;
+  right: -16px;
+  top: calc(50% - 4px);
+  margin: 0 4px;
+  border-radius: 50%;
+  display: inline-block;
+  height: 8px;
+  width: 8px;
+  background-color: #F34848;
+  box-shadow: 0 2px 5px 0 #F34848;
+}
+
+.chats_search_results {
+  padding: 20px 9px 6px;
+  margin: 5px 17px;
+  border-bottom: 1px solid #373947;
+  p {
+    color: rgba(255,255,255,0.5);
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+
+.chats_no_items {
+  color: rgba(255,255,255,0.5);
+  font-size: 14px;
+  line-height: 17px;
+  display: block;
+  margin: 47px 25px 0;
+}

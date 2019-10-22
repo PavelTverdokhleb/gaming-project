@@ -1,0 +1,47 @@
+.start_consoles_wrapper {
+  width: 100%;
+  min-height: 623px;
+  padding: 34px 92px 84px;
+  .get_start_title {
+    margin: 9px 0 0;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+  }
+  .auth_button_wrapper {
+    text-align: center;
+  }
+  .auth_button_contained {
+    min-width: 226px;
+    height: 50px;
+    line-height: 50px;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .game_profile_box {
+    min-width: 340px;
+  }
+}
+
+.consoles_links {
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  max-width: 66%;
+  margin: 15px auto 42px;
+  a {
+    color: #a0a6d0;
+    font-size: 14px;
+    line-height: 17px;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+}
+
+.consoles_info {
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  max-width: 48%;
+  margin: 34px auto 30px;
+}

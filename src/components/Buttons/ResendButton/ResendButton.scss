@@ -1,0 +1,13 @@
+.resend_button {
+  background: transparent;
+  cursor: pointer;
+  color: #57A1E6;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  text-decoration: underline;
+  &:hover {
+    text-decoration: none;
+  }
+}

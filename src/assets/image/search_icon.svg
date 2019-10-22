@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>9FDEB5A2-63E5-4CFE-AF81-906E44F39314</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M26.831732,18.8907537 C24.6384452,16.6974669 21.0840404,16.6974669 18.8907537,18.8907537 C16.6974669,21.0840404 16.6974669,24.6384452 18.8907537,26.831732 C21.0840404,29.0250187 24.6384452,29.0250187 26.831732,26.831732 C29.0250187,24.6384452 29.0250187,21.0840404 26.831732,18.8907537 M32.6715124,32.6715124 C32.2324058,33.1094959 31.5215248,33.1094959 31.0824183,32.6715124 L27.545982,29.1339531 C24.4666209,31.4361742 20.100262,31.2183055 17.3027826,28.419703 C14.2324058,25.3504492 14.2324058,20.3731595 17.3027826,17.3027826 C20.3720364,14.2324058 25.3504492,14.2324058 28.419703,17.3027826 C31.2183055,20.100262 31.4361742,24.4666209 29.1339531,27.545982 L32.6715124,31.0835413 C33.1094959,31.5215248 33.1094959,32.2324058 32.6715124,32.6715124" id="path-1"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Friends/Invited-Firends" transform="translate(-519.000000, -162.000000)">
+            <g id="Friend-list-" transform="translate(275.000000, 82.000000)">
+                <g id="Search-" transform="translate(23.000000, 65.000000)">
+                    <g id="Button" transform="translate(206.000000, 0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Search" fill="#FFFFFF" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

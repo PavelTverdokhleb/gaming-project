@@ -1,0 +1,130 @@
+.sidebar_wrapper {
+  position: fixed;
+  left: 0;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: calc(100vh - 50px);
+  width: 245px;
+  background-color: #292F4C;
+  padding-bottom: 20px;
+  overflow: auto;
+  & > :nth-child(2) {
+    padding-bottom: 110px;
+  }
+  nav {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    a {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      color: #FFFFFF;
+      font-family: "Inter", sans-serif;
+      font-size: 14px;
+      text-decoration: none;
+      height: 58px;
+      line-height: 58px;
+      position: relative;
+      padding: 0 10px 0 41px;
+      -webkit-transition: all 0.3s linear;
+      -moz-transition: all 0.3s linear;
+      -ms-transition: all 0.3s linear;
+      -o-transition: all 0.3s linear;
+      transition: all 0.3s linear;
+      &:before {
+        content: "";
+        display: block;
+        position: absolute;
+        left: -8px;
+        top: 0;
+        height: 100%;
+        width: 8px;
+        background: linear-gradient(180deg, #F85252 0%, #F04242 100%);
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
+        -ms-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+      }
+      &:after {
+        content: "";
+        display: block;
+        position: absolute;
+        left: -20px;
+        top: 0;
+        height: 100%;
+        width: 20px;
+        opacity: 0.38;
+        background: linear-gradient(270deg, #232841 0%, #F04242 100%);;
+        -webkit-transition: all 0.3s linear;
+        -moz-transition: all 0.3s linear;
+        -ms-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+      }
+      &:hover {
+        background-color: #232841;
+      }
+      &.active {
+        background-color: #232841;
+        &:before {
+          left: 0;
+        }
+        &:after {
+          left: 8px;
+        }
+      }
+    }
+  }
+}
+
+.nav_link_image {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  margin-right: 25px;
+}
+
+.balance_info_wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 58px;
+  padding: 0 10px 0 33px;
+}
+
+.balance_info {
+  font-family: "Inter", sans-serif;
+  margin-left: 18px;
+  span {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 17px;
+    img {
+      width: 10px;
+      margin: 0 0 2px 8px;
+    }
+  }
+}
+
+div {
+  .add_points_button {
+    padding: 4px;
+    background-color: rgba(255,255,255,0.3);
+    div {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      background-color: #ffffff;
+    }
+    svg {
+      fill: #F04242;
+      font-size: 16px;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.logo_wrapper {
+  & > :last-child {
+    margin-left: 27px;
+    margin-top: -10px;
+  }
+  img {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none;
+  }
+}
